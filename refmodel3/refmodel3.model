@@ -9,7 +9,7 @@ layer {
   }
   molgrid_data_param {
     source: "TESTFILE"
-    batch_size: 50
+    batch_size: 8
     dimension: 23.5
     resolution: 0.5
     shuffle: false
@@ -28,7 +28,7 @@ layer {
   }
   molgrid_data_param {
     source: "TRAINFILE"
-    batch_size: 50
+    batch_size: 8
     dimension: 23.5
     resolution: 0.5
     shuffle: true
